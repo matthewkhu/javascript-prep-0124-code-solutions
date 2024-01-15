@@ -18,6 +18,10 @@ Array indexes start at 0.
 - How can you access the last element of an array?
   Subtracting 1 from your length variable
 
+const lastIndex = length - 1
+const lastElement = languages[lastIndex]
+console.log('the last element of the array is', lastElement)
+
 ## Notes
 
 All student notes should be written here.

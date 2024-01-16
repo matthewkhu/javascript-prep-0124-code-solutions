@@ -51,8 +51,8 @@ function getFullName(firstName, lastName) {
   const fullName = firstName + ' ' + lastName;
   return fullName;
 }
-const Juan = getFullName('Juan', 'Ramirez');
-console.log('getFullName Exercise:', Juan);
+const juan = getFullName('Juan', 'Ramirez');
+console.log('getFullName Exercise:', juan);
 
 function cube(number) {
   return number * number * number;

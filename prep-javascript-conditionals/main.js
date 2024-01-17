@@ -40,6 +40,23 @@ function gradeCalculator(score) {
 }
 console.log('Grade', gradeCalculator(student2Score));
 
+const season = 'spring';
+
+function seasonMessenger(season) {
+  if (season === 'summer') {
+    return "it's hot today";
+  } else if (season === 'spring') {
+    return 'the flowers are blooming';
+  } else if (season === 'autumn') {
+    return 'the leaves are changing colors';
+  } else if (season === 'winter') {
+    return "it's cold today";
+  } else {
+    return 'please enter a valid season';
+  }
+}
+console.log('Season Greeting:', seasonMessenger(season));
+
 const dayOfTheWeek = 'thursday';
 
 function dayDetector(dayOfTheWeek) {
